@@ -14,7 +14,7 @@
 |--|--|--|--|--|
 |圈复杂度|STCYC|方法|Cyclomatic Complexity ：圈复杂度 （也称为条件复杂度,是一种代码复杂度的衡量标准）|圈复杂度计算为决策数加1。（if条件/case条件等数量+1）圈复杂度高：表明模块化不足或一个函数中的逻辑太多。软件度量研究表明，圈复杂度大于10的函数往往存在与它们的复杂性有关的问题。|
 |代码行数|[LOC](LOC.md)|文件|lines of code|代码行数|
-|源代码行数|SLOC|文件|source lines of code|源代码行数|
+|源代码行数|SLOC|文件|source lines of code|源代码行数 ![SLOC](Hello.png)|
 |继承深度|STNOC|类|Depth of Inheritance|Depth of Inheritance|
 
 ### 名词
