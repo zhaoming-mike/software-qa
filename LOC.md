@@ -19,3 +19,20 @@ for (i = 0; i < 10; i += 1)
     printf("hello");
 }
 ```
+> 若不使用循环的架构，直接调用10次printf，一般不建议以这种方式撰写程序，但其LOC为11，比上述二个程序的LOC都大：
+
+```c
+/* It is not a good code style */
+printf("hello");
+printf("hello");
+printf("hello");
+printf("hello");
+printf("hello");
+printf("hello");
+printf("hello");
+printf("hello");
+printf("hello");
+printf("hello");
+```
+
+> 不同的软件度量可量测的软件性质也随之不同，像源代码行数适合量测软件的大小，但无法量测软件的模块化程度，而且此度量方式是要量测原代码的长度，不适合作为软件规划阶段进行度量。
