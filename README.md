@@ -19,3 +19,4 @@
 |中文|英文|
 |---|---|
 |软件测量|software measurement|
+|软件度量|software metric|
